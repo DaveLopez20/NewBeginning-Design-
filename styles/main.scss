@@ -1,3 +1,5 @@
 // Scss Document
 .navigation {background-color: rebeccapurple; padding: 15px; 
 	nav{a{color: gold; text-decoration: none;& hover{color: orangered}}}}
+
+.paragraph {&:hover { font-size: 5px;}}

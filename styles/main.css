@@ -6,3 +6,6 @@
     text-decoration: none; }
     .navigation nav a hover {
       color: orangered; }
+
+.paragraph:hover {
+  font-size: 5px; }
