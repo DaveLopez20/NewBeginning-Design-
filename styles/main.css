@@ -1,28 +1,8 @@
-@charset "utf-8";
-/* CSS Document */
-
-h1 {font-family: 'Amita', serif;
-font-family: 'Indie Flower', cursive; text-transform: uppercase}
-label {font-family: 'Amita', serif;
-font-family: 'Indie Flower', cursive;}
-p {font-family: 'Amita', serif;
-font-family: 'Indie Flower', cursive;
-text-align: center; width: 300px;
-display: inline-block}
-
-body {
-	background-color: chartreuse }
-
-a {font-family: 'Amita', serif;
-font-family: 'Indie Flower', cursive; color: gold; text-decoration: none}
-
-header{ background-color: rebeccapurple; padding: 15px;
-	margin-top: 25px;
-}
-
-figcaption {font-family: 'Amita', serif;
-font-family: 'Indie Flower', cursive;}
-
-navigation {color: gold; padding: 15px; margin-top: 25px; display: block}
-
-image {display: inline-block} 
+.navigation {
+  background-color: rebeccapurple;
+  padding: 15px; }
+  .navigation nav a {
+    color: gold;
+    text-decoration: none; }
+    .navigation nav a hover {
+      color: orangered; }
