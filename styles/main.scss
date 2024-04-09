@@ -1,5 +1,26 @@
 // Scss Document
-.navigation {background-color: rebeccapurple; padding: 15px; 
-	nav{a{color: gold; text-decoration: none;& hover{color: orangered}}}}
+@use "./vendor/normalize.scss";
+@use "./partials/colors";
 
+.navigation {background-color: colors.$primary-color; 
+	padding: 15px;
+	nav{
+		a{color:colors.$secondary-color ; text-decoration: none;& hover
+	{color: orangered}
+	}
+	}
+}
 .paragraph {&:hover { font-size: 5px;}}
+
+.body {background-color:chartreuse}
+
+// Big screens
+@media (min-width: 1024px) {
+  .container {
+    background-color: #000080;
+  }
+}
+
+.btn-primary {background-color: colors.$primary-color; color: #000000}
+
+.footer {background-color: colors.$dark-background;}
