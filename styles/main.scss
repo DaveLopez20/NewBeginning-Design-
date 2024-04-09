@@ -1,6 +1,8 @@
 // Scss Document
 @use "./vendor/normalize.scss";
 @use "./partials/colors";
+@use "colors";
+
 
 .navigation {background-color: colors.$primary-color; 
 	padding: 15px;
@@ -12,7 +14,7 @@
 }
 .paragraph {&:hover { font-size: 5px;}}
 
-.body {background-color:chartreuse}
+.body {background-color: chartreuse;}
 
 // Big screens
 @media (min-width: 1024px) {
